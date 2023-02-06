@@ -103,7 +103,7 @@ nav ul li a{
     width: 27%;
     border-radius: 10px;
     margin-left: 20px;
-    background-color: #1B2734;
+    background-color: #28405a;
     color: white;
     transition: 1.5s;
 }
@@ -170,10 +170,17 @@ select option{
     font-size: 18px;
 }
 .img2{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     
 }
+
+.cityImg{
+    width: 300px;
+    height: 300px;
+    
+}
+
 .textdiv{
     display: flex;
     flex-direction: row;
@@ -263,6 +270,8 @@ select option{
     text-align: center;
     font-weight: 400;
     margin-top: -10px;
+    padding: 10px 10px;
+    line-height: 15px;
 }
 
 .box2{
@@ -376,15 +385,19 @@ select option{
     line-height:  1.7142857143;
 }
 
-.card1{
+.card{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center; */
     background-color: #fff;
     border-radius: 5px;
-    width: 311px;
-    height: 349px;
-    padding: 10px;
-    /* border: solid #f8f7f7; */
-    margin-left: 100px;
-    margin-top: 90px;
+    width: 300px;
+    height: 350px;
+    /* padding: 15px; */
+    border: 1px solid #f8f7f7; 
+    /* margin-left: 100px;
+    margin-top: 90px;  */
     
 }
 
